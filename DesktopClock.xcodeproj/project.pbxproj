@@ -12,6 +12,7 @@
 		A1000005233F0001 /* DisplayManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1000006233F0001 /* DisplayManager.swift */; };
 		A1000007233F0001 /* ClockView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1000008233F0001 /* ClockView.swift */; };
 		A1000009233F0001 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A100000A233F0001 /* SettingsView.swift */; };
+		A100001C233F0001 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A100001D233F0001 /* Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +22,7 @@
 		A1000008233F0001 /* ClockView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClockView.swift; sourceTree = "<group>"; };
 		A100000A233F0001 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
 		A100000B233F0001 /* DesktopClock.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DesktopClock.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A100001D233F0001 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -49,6 +51,7 @@
 				A1000010233F0001 /* Models */,
 				A1000011233F0001 /* Views */,
 				A1000012233F0001 /* Utilities */,
+				A100001D233F0001 /* Assets.xcassets */,
 			);
 			path = DesktopClock;
 			sourceTree = "<group>";
@@ -88,6 +91,17 @@
 		};
 /* End PBXGroup section */
 
+/* Begin PBXResourcesBuildPhase section */
+		A100001E233F0001 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A100001C233F0001 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
 /* Begin PBXNativeTarget section */
 		A1000013233F0001 /* DesktopClock */ = {
 			isa = PBXNativeTarget;
@@ -95,6 +109,7 @@
 			buildPhases = (
 				A1000015233F0001 /* Sources */,
 				A100000C233F0001 /* Frameworks */,
+				A100001E233F0001 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -283,6 +298,7 @@
 				DEVELOPMENT_TEAM = "";
 				ENABLE_HARDENED_RUNTIME = NO;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Desktop Clock";
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
 				INFOPLIST_KEY_LSUIElement = YES;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
@@ -313,6 +329,7 @@
 				DEVELOPMENT_TEAM = "";
 				ENABLE_HARDENED_RUNTIME = NO;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Desktop Clock";
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
 				INFOPLIST_KEY_LSUIElement = YES;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
